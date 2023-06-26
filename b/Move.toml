@@ -1,11 +1,11 @@
 [package]
 name = "B"
 version = "0.0.1"
-#published-at = "0x90ece34aedb837bdbc577cbf4a9ea508082904eaf10d7df9f69325d6fea4f33c"
+published-at = "0xa3cecaaaad165441a05738f093b929beda5446f7f07fd611ae23eeea363e3790"
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir="crates/sui-framework/packages/sui-framework/", rev = "mainnet" }
 
 [addresses]
-b = "0x0"
-#b = "0x5ed742e9685ad63f987bd9ebbbd5092121bf6ab5648add5a0558ce69d5587d0e"
+#b = "0x0"
+b = "0xa3cecaaaad165441a05738f093b929beda5446f7f07fd611ae23eeea363e3790"
