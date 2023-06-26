@@ -1,0 +1,13 @@
+[package]
+name = "A"
+version = "0.0.1"
+published-at = "0x3a6aeb1254b37aae638349e2f31a1dd7a40ae3eeaf50f09bcdc8a8f0e067e390"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir="crates/sui-framework/packages/sui-framework/", rev = "mainnet" }
+#forge = { git = "https://github.com/kairoski03/sui_samples.git", subdir="forge/", rev = "main" }
+B = { local = "../b"}
+C = { local = "../c"}
+
+[addresses]
+a = "0x0"
