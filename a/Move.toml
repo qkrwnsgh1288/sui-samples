@@ -6,8 +6,8 @@ published-at = "0x3a6aeb1254b37aae638349e2f31a1dd7a40ae3eeaf50f09bcdc8a8f0e067e3
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir="crates/sui-framework/packages/sui-framework/", rev = "mainnet" }
 #forge = { git = "https://github.com/kairoski03/sui_samples.git", subdir="forge/", rev = "main" }
-B = { local = "../b"}
-C = { local = "../c"}
+B = { git = "https://github.com/qkrwnsgh1288/sui-samples.git", subdir="b/", rev = "main" }
+C = { git = "https://github.com/qkrwnsgh1288/sui-samples.git", subdir="c/", rev = "main" }
 
 [addresses]
 a = "0x0"
